@@ -1,5 +1,5 @@
-const HomePage = () => {
-  return <h1>Hello World</h1>;
+import { redirect } from "next/navigation";
+
+export default function HomePage() {
+  redirect("/mc-donalds"); // Redireciona automaticamente
 }
- 
-export default HomePage;
